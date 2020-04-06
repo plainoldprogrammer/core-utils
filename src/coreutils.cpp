@@ -31,24 +31,35 @@ namespace coreutils
 		return words;
 	}
 
-	void print_string_list(const list<string> & originalList)
+	void print_string_list(const list<string> &original_list)
 	{
-		list<string>::const_iterator it = originalList.begin();
-		while (it != originalList.end())
+		list<string>::const_iterator it = original_list.begin();
+		while (it != original_list.end())
 		{
 			cout << *it;
 
-			it++;
-			if (!(it == originalList.end()))
+			if (has_next(original_list, it))
 			{
 				cout << " -> ";
 			}
-			it--;
 			it++;
-
 		}
 		
 		cout << endl;
+	}
+
+	bool has_next(const list<string> &original_list, const list<string>::const_iterator &original_iterator)
+	{
+		bool has_next_element = false;
+		list<string>::const_iterator it = original_iterator;
+
+		it++;
+		if (!(it == original_list.end()))
+		{
+			has_next_element = true;
+		}
+
+		return has_next_element;
 	}
 }
 

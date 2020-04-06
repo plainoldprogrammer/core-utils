@@ -10,9 +10,10 @@ using namespace std;
 
 namespace coreutils
 {
-	void split_string()
+	void split_string(const string &original)
 	{
-		string s = "The cow is white";
+		string s(original);
+
 		string delimiter = " ";
 		string token;
 		size_t pos = 0;
@@ -27,3 +28,4 @@ namespace coreutils
 		cout << s;
 	}
 }
+

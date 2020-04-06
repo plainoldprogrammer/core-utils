@@ -11,7 +11,7 @@
 
 namespace coreutils
 {
-	void split_string();
+	void split_string(const std::string &);
 }
 
 #endif

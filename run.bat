@@ -1,0 +1,2 @@
+bin\coreutils-test.exe
+

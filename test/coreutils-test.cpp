@@ -1,3 +1,10 @@
+/*
+ *	Author:			Plainoldprogrammer
+ *	Description:	Basic test of the coreutils library.
+ *
+ */
+
+
 #include <iostream>
 #include "coreutils.h"
 

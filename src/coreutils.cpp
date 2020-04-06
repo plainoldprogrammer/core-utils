@@ -1,3 +1,9 @@
+/*
+ *	Author:			Plainoldprogrammer
+ *	Description:	Implementation of thecoreutils library.
+ */
+ 
+
 #include "coreutils.h"
 
 using namespace std;

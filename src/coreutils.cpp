@@ -30,5 +30,17 @@ namespace coreutils
 
 		return words;
 	}
+
+	void print_string_list(list<string> originalList)
+	{
+		list<string>::iterator it = originalList.begin();
+		while (it != originalList.end())
+		{
+			cout << *it << "\t";
+			it++;
+		}
+		
+		cout << endl;
+	}
 }
 

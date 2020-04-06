@@ -13,6 +13,7 @@
 namespace coreutils
 {
 	std::list<std::string> split_string(const std::string &);
+	void print_string_list(std::list<std::string>);
 }
 
 #endif

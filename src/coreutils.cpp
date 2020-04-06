@@ -36,8 +36,16 @@ namespace coreutils
 		list<string>::const_iterator it = originalList.begin();
 		while (it != originalList.end())
 		{
-			cout << *it << "\t";
+			cout << *it;
+
 			it++;
+			if (!(it == originalList.end()))
+			{
+				cout << " -> ";
+			}
+			it--;
+			it++;
+
 		}
 		
 		cout << endl;

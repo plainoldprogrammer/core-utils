@@ -8,10 +8,11 @@
 #define CORE_UTILS
 
 #include <iostream>
+#include <list>
 
 namespace coreutils
 {
-	void split_string(const std::string &);
+	std::list<std::string> split_string(const std::string &);
 }
 
 #endif

@@ -10,9 +10,10 @@ using namespace std;
 
 namespace coreutils
 {
-	void split_string(const string &original)
+	list<string> split_string(const string &original)
 	{
 		string s(original);
+		list<string> words;
 
 		string delimiter = " ";
 		string token;
@@ -21,11 +22,13 @@ namespace coreutils
 		while ((pos = s.find(delimiter)) != string::npos)
 		{
 			token = s.substr(0, pos);
-			cout << token << endl;
+			words.push_back(token);
 			s.erase(0, pos + delimiter.length());
 		}
 	
-		cout << s;
+		words.push_back(s);
+
+		return words;
 	}
 }
 

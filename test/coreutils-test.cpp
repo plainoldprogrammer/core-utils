@@ -17,7 +17,7 @@ int main()
 
 	std::cout << "call to coreutils::split_string()" << std::endl;
 	coreutils::split_string(str);
-	std::cout << std::endl << std::endl;
+	std::cout << std::endl;
 
 	std::cout << "str after the call to split_string() is: " << str;
 	std::cout << std::endl;

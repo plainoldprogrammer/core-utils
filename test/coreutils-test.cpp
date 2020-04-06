@@ -12,7 +12,7 @@ int main()
 {
 	system("cls");
 
-	std::string str = "This is a simple example";
+	std::string str = "This is a simple but complete and real example";
 
 	std::cout << "str after its declaration: " << std::endl << str << std::endl << std::endl;
 

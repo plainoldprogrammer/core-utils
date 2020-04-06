@@ -33,10 +33,12 @@ namespace coreutils
 
 	void print_string_list(const list<string> &original_list)
 	{
+		int i = 0;
+
 		list<string>::const_iterator it = original_list.begin();
 		while (it != original_list.end())
 		{
-			cout << *it;
+			cout << "[" << i++ << "]: " << *it;
 
 			if (has_next(original_list, it))
 			{

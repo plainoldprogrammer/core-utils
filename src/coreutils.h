@@ -4,8 +4,15 @@
  *
  */
 
+#ifndef CORE_UTILS
+#define CORE_UTILS
 
 #include <iostream>
 
-void split_string();
+namespace coreutils
+{
+	void split_string();
+}
+
+#endif
 

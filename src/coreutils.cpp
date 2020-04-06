@@ -38,7 +38,7 @@ namespace coreutils
 		list<string>::const_iterator it = original_list.begin();
 		while (it != original_list.end())
 		{
-			cout << "[" << i++ << "]: " << *it;
+			cout << "[" << i++ << "]:" << *it;
 
 			if (has_next(original_list, it))
 			{

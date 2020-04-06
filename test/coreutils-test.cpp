@@ -16,11 +16,15 @@ int main()
 
 	std::cout << "str after its declaration: " << std::endl << str << std::endl << std::endl;
 
-	std::cout << "call to coreutils::split_string()" << std::endl;
+	std::cout << "call to coreutils::split_string(): " << std::endl;
 	std::list<std::string> splitted_str = coreutils::split_string(str);
 	std::cout << std::endl;
 
 	std::cout << "call to coreutils::print_string_list(): " << std::endl;
+	coreutils::print_string_list(splitted_str);
+	std::cout << std::endl;
+
+	std::cout << "call again to coreutils::print_string_list(): " << std::endl;
 	coreutils::print_string_list(splitted_str);
 	std::cout << std::endl;
 

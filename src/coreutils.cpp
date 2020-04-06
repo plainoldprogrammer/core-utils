@@ -31,9 +31,9 @@ namespace coreutils
 		return words;
 	}
 
-	void print_string_list(list<string> originalList)
+	void print_string_list(const list<string> & originalList)
 	{
-		list<string>::iterator it = originalList.begin();
+		list<string>::const_iterator it = originalList.begin();
 		while (it != originalList.end())
 		{
 			cout << *it << "\t";

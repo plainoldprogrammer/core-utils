@@ -1,8 +1,9 @@
 # core-utils
-Basic core utils library thats provide missing C++ features.
+**Core Utils** is a library thats provide basic missing C++ features.
 
-**Defined utility functions**
+---
 
+### Defined utility functions
 * split_string
 * print_string_list
 * hast_next

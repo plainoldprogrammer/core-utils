@@ -1,5 +1,5 @@
 # Core Utils
-**Core Utils** is a library thats provide basic missing C++ features.
+**Core Utils** is a simple *C++* library that provides the most basic missing features.
 
 ---
 

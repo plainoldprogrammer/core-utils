@@ -1,7 +1,6 @@
 /*
  *	Author:			Plainoldprogrammer
  *	Description:	Header file of the coreutils libreary.
- *
  */
 
 #ifndef CORE_UTILS
